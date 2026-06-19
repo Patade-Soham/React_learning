@@ -13,14 +13,14 @@ function App() {
     alert('js hovered')
   }
   return (
-    <div>
+    <>
       <button onClick={handler}>click</button>
       <p onMouseOver={handleMouse}>I am a paragraph</p>
       <input type="text" onChange={(e)=>console.log(e.target.value)} />
       <form onSubmit={handler}>
         <button type='submit'>Submit</button>
       </form>
-    </div>
+    </>
 
   )
 }
