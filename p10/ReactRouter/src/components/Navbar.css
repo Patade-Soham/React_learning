@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 10px;
+}
+.active-link{
+    border: red solid 1px;
+}
